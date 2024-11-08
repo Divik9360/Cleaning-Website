@@ -1,0 +1,157 @@
+.service-top{
+    display: flex;
+    align-items: center;
+}
+
+.service-top-left img{
+    height: 70vh;
+    
+}
+.service-logo{
+    font-size: 70px;
+}
+.service-top-right{
+    background: white;
+    width: 100%;
+    position: relative;
+    padding: 50px;
+    top: 70px;
+    left: -50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service-top-right h3{
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+}
+.service-top-right h1{
+    color: black;
+   font-weight: 600;
+}
+.service-top-right p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 400;
+}
+.service-top-right-bottom{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    top: 10px;
+    
+}
+.service-top-right-bottom-content h2{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    top: 5px;
+}
+.service-top-right-bottom-content p{
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+}
+.service-img img{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    z-index: -1;
+}
+.service-bottom{
+    text-align: center;
+    top: 60px;
+}
+.service-bottom h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.service-bottom h1{
+    color: black;
+    font-weight: 600;
+}
+.service-bottom p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.service-bottom-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.service-bottom-box{
+    width: 400px;
+    height: 300px;
+    background: rgb(34,193,195);
+    padding: 20px;
+    top: 20px;
+}
+.service-bottom-box .service-logo{
+    color: wheat;
+}
+.service-bottom-box h1{
+    color: white;
+    font-size: 25px;
+    top: 10px;
+}
+.service-bottom-box p{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    top: 10px;
+}
+@media (max-width:900px) {
+    .service-top{
+        top: -120px;
+        display: inline;
+    }
+    .service-top-left img{
+        height: 48vh;
+    }  
+    .service-top-right{
+         left: 20px;
+         top: -50px;
+    }
+    .service-top-right h3{
+        font-size: 12px;
+    }
+    .service-top-right h1{
+        font-size: 20px;
+        top: 10px;
+    }
+    .service-top-right p{
+        font-size: 13px;
+        top: 10px;
+    }
+    .service-img img{
+        height: 80vh;
+    }
+  
+    .service-bottom h3{
+        font-size: 12px;
+    }
+    .service-bottom h1{
+        font-size: 22px;
+    }
+    .service-bottom p{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .service-bottom-boxes{
+        gap: 5px;
+        
+    }
+    .service-bottom-box .service-logo{
+        font-size: 50px;
+    }
+    .service-bottom-box h1{
+        font-size: 15px;
+    }
+    .service-bottom-box p{
+        font-size: 12px;
+        top: -10px;
+    }
+
+}

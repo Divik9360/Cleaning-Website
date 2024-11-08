@@ -1,0 +1,88 @@
+.contact{
+    top: 200px;
+}
+.contact img{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+}
+.contact-top{
+    text-align: center;
+    top: 150px;
+}
+.contact-top .contact-logo{
+    font-size: 80px;
+    color: rgb(34,193,195);
+}
+.contact-top p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    top: 10px;
+}
+.contact-top h1{
+    color: white;
+    font-weight: 600;
+    top: 10px;
+}
+.contact-top button{
+    background-color: rgb(34,193,195);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    top: 20px;
+}
+.contact-bottom{
+    width: 80%;
+    height: 150px;
+    background: whitesmoke;
+    top: 250px;
+    left: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-bottom-content{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+}
+.contact-bottom-content-flex{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.contact-bottom-logo{
+    font-size: 45px;
+    top: 20px;
+    color: rgb(34,193,195);
+}
+.contact-bottom-content-1{
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+.contact-bottom-content-1 h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+.contact-bottom-content-1 h3{
+    font-size: 13px;
+    color: grey;
+    font-weight: 600;
+}
+.line{
+    color: grey;
+    font-size: 20px;
+    top: 50px;
+    font-weight: 500;
+}
+
+@media (max-width:900px) {
+    
+        
+    
+}
+
